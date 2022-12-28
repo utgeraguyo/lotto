@@ -63,11 +63,11 @@ function createNumber(){
 
 function render(){
     ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-    if(num[1]!=null) ctx.drawImage(numImage[num[1]], 670, 570, 300, 300);
-    if(num[2]!=null) ctx.drawImage(numImage[num[2]], 990, 570, 300, 300);
-    if(num[3]!=null) ctx.drawImage(numImage[num[3]], 1310, 570, 300, 300);
-    if(num[4]!=null) ctx.drawImage(numImage[num[4]], 1630, 570, 300, 300);
-    if(num[5]!=null) ctx.drawImage(numImage[num[5]], 1950, 570, 300, 300);    
+    if(num[1]!=null) ctx.drawImage(numImage[num[1]], 710, 570, 300, 300);
+    if(num[2]!=null) ctx.drawImage(numImage[num[2]], 1030, 570, 300, 300);
+    if(num[3]!=null) ctx.drawImage(numImage[num[3]], 1350, 570, 300, 300);
+    if(num[4]!=null) ctx.drawImage(numImage[num[4]], 1670, 570, 300, 300);
+    if(num[5]!=null) ctx.drawImage(numImage[num[5]], 1990, 570, 300, 300);    
 }
 
 function main(){
